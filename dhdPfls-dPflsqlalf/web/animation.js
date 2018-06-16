@@ -1,15 +1,3 @@
-// index.html에서 사용
-$(document).ready(function(){
-  var i=1;
-  setInterval(function(){
-    i++;
-    if(i>3){ i=1; }
-    $("#main-image").fadeOut("slow");
-    $("#main-image").attr("src", "png/main" + i + ".jpg");
-    $("#main-image").fadeIn("slow");
-  }, 3000);
-});
-
 
 
 ///////////////////////////////////////////////////////////////////
@@ -38,10 +26,3 @@ $("#para-title6").click(function(){
 
 ///////////////////////////////////////////////////////////////////
 //tip.html에서 사용
-scroll_right(function(){
-  $('.tips_picture').scrollRight($('.tips_picture').scrollRight() + 50);
-});
-
-scroll_left(function(){
-  $('.tips_picture').scrollLeft($('.tips_picture').scrollLeft() + 50);
-});
