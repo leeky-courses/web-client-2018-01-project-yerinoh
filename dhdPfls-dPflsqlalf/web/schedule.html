@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <title>About</title>
   <link rel="stylesheet" type="text/css" href="schedule.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="size.js"></script>
+  <script type="text/javascript" src="bling.js"></script>
 </head>
 <body bgcolor="black">
   <div>
     <h1 id="top">schedule</h1>
-  <details>
-    <summary style="color: white;">time table of lecture</summary>
-      <center><img src="png/lecturetable.jpg" width="400" height="auto" alt="cloud"></center>
-  </details>
-  <details>
-    <summary style="color: white;">may's schedule</summary>
-    <center><table style="color: white">
+  
+    <ol type = "I">
+      <li id="para-title1">time table of lecture</li>
+        <center><div id="paragraph1"><img src="png/lecturetable.jpg" width="400" height="auto" alt="cloud"></div></center>
+  
+  
+    <li id="para-title2">5월 스케줄</li>
+    <div id="paragraph2"><center><table style="color: white">
         <tr>
             <th>일</th>
             <th>월</th>
@@ -69,8 +73,9 @@
             <td> </td>
             <td> </td>
         </tr>
-        </table></center>
-  </details>
+        </table></center></div>
+         <script type="text/javascript" src="animation.js"></script>
+  
     <a href="home.html"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="home" src="png/home.png" width="50" height="50"></a>
     <a href="#top"><img onmouseover="bigger2(this)" onmouseout="normal2(this)"class="top" src="png/up.png" width="50" height="50"></a>
   </div>

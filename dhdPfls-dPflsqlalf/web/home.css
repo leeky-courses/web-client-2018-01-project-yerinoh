@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
 
-h1{
-    color: lightcyan;
-    margin: 20px;
-    font-size: 50px;
-    position: relative;
-    font-family: 'Nanum Brush Script', cursive, serif;
+#main-top {
+  font-family: 'Nanum Brush Script', cursive, serif;
+  font-size : 50px;
+  margin : 10px;
+  position : static;
 }
 h3{
     margin: 0px;
